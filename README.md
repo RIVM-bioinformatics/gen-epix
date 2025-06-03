@@ -6,6 +6,7 @@
 </p>
 
 ---
+
 # Gen-EpiX: Genomic Epidemiology platform for disease X (beta version)
 
 Gen-EpiX is platform for visualizing and analyzing genomic epidemiology data. It has fine-grained access controls for collaboration between multiple organizations.
@@ -13,10 +14,13 @@ Gen-EpiX is platform for visualizing and analyzing genomic epidemiology data. It
 ---
 
 ## Documentation locations
+
 To read more about this project, see our documentation sites:
+
 - **<a href="https://rivm-bioinformatics.github.io/gen-epix-api" target="_blank">Gen-EpiX-API</a>**: The developer documentation for the API.
-- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui" target="_blank">Gen-EpiX-UI</a>**: The frontend developed for Gen-EpiX.
-- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui-tools" target="_blank">Gen-EpiX-UI-tools</a>**: Tools for the frontend.
+- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui" target="_blank">Gen-EpiX-UI</a>**: The frontend ui library developed for Gen-EpiX.
+- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui-tools" target="_blank">Gen-EpiX-UI-tools</a>**: A library of general purpose frontend tools made for Gen-Epix.
+- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui-demo-client" target="_blank">Gen-EpiX-demo-client</a>**: A frontend demo-client developed for Gen-EpiX.
 
 ---
 
@@ -32,6 +36,5 @@ To read more about this project, see our documentation sites:
 
 ## Deliberately not in scope
 
-- **Disease-specific knowledge**: Every organization has their own variables that are important for analysis, as well as their own bioinformatics to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored. 
-- **Collaboration-specific knowledge**: Every collaboration or country (e.g. for public health surveillance of diseases) has their own specifics in terms of access rights and any relevant geographic regions. We therefore avoided any country-specific code, both for the type of organizations that have access, and for any geographic data. 
-
+- **Disease-specific knowledge**: Every organization has their own variables that are important for analysis, as well as their own bioinformatics to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored.
+- **Collaboration-specific knowledge**: Every collaboration or country (e.g. for public health surveillance of diseases) has their own specifics in terms of access rights and any relevant geographic regions. We therefore avoided any country-specific code, both for the type of organizations that have access, and for any geographic data.
