@@ -1,0 +1,6 @@
+site_name: "Gen-EpiX"
+
+theme: readthedocs
+
+nav:
+  - Home: index.md
