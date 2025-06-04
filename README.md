@@ -17,10 +17,10 @@ Gen-EpiX is platform for visualizing and analyzing genomic epidemiology data. It
 
 This project is divided among the following repositories:
 
-- **<a href="https://rivm-bioinformatics.github.io/gen-epix-api" target="_blank">Gen-EpiX-API</a>**: The backend package developed for Gen-EpiX.
-- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui" target="_blank">Gen-EpiX-UI</a>**: The frontend ui library developed for Gen-EpiX.
-- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui-tools" target="_blank">Gen-EpiX-UI-tools</a>**: A library of general purpose frontend tools made for Gen-Epix.
-- **<a href="https://rivm-bioinformatics.github.io/gen-epix-ui-demo-client" target="_blank">Gen-EpiX-demo-client</a>**: A frontend demo-client developed for Gen-EpiX.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-api" target="_blank">Gen-EpiX-API</a>**: The backend package developed for Gen-EpiX.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui" target="_blank">Gen-EpiX-UI</a>**: The frontend ui library developed for Gen-EpiX.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui-tools" target="_blank">Gen-EpiX-UI-tools</a>**: A library of general purpose frontend tools made for Gen-Epix.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui-demo-client" target="_blank">Gen-EpiX-demo-client</a>**: A frontend demo-client developed for Gen-EpiX.
 - **<a href="https://github.com/RIVM-bioinformatics/gen-epix-e2e" target="_blank">Gen-EpiX-e2e</a>**: End-to-end tests created for the entire Gen-EpiX stack.
 
 ---
