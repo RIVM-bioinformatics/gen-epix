@@ -7,8 +7,7 @@
 
 ---
 
-# Gen-EpiX: Genomic Epidemiology platform for disease X
-# [beta version]
+# Gen-EpiX: Genomic Epidemiology platform for disease X<br>[beta version]
 
 Gen-EpiX is platform for visualizing and analyzing genomic epidemiology data. It can be used for any disease and has very fine-grained access controls to enable collaboration between multiple organizations. It does not include, by design, bioinformatics pipelines or any other data analysis pipelines.
 
