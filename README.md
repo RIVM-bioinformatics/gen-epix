@@ -8,7 +8,7 @@
 
 Gen-EpiX is a platform for visualizing and analyzing genomic epidemiology data. It can be used for any disease and has very fine-grained access controls to enable collaboration between multiple organizations. It does not include, by design, bioinformatics pipelines or any other data analysis pipelines.
 
-The platform is currently at the beta release stage and as such not yet usable for production. We are currently to get the platform released, for use in the Netherlands as the official national platform for laboratory-based surveillance of infectious diseases. Feel free to contact us <a href="mailto:ivo.van.walle@rivm.nl">here</a> if you are interested.
+The platform is currently at the beta release stage and as such not yet usable for production. We are currently working to get the platform released, for use in the Netherlands as the official national platform for laboratory-based surveillance of infectious diseases. Feel free to contact us <a href="mailto:ivo.van.walle@rivm.nl">here</a> if you are interested.
 
 ---
 
