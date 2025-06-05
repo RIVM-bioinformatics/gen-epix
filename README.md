@@ -16,11 +16,11 @@ The platform is currently at the beta release stage and as such not yet usable f
 
 This project is divided among the following repositories:
 
-- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-api" target="_blank">gen-epix-api</a>**: The backend package developed for Gen-EpiX.
-- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui" target="_blank">gen-epix-ui</a>**: The frontend ui library developed for Gen-EpiX.
-- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui-tools" target="_blank">gen-epix-ui-tools</a>**: A library of general purpose frontend tools made for Gen-Epix.
-- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui-demo-client" target="_blank">gen-epix-demo-client</a>**: A frontend demo-client developed for Gen-EpiX.
-- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-e2e" target="_blank">gen-epix-e2e</a>**: A library of Playwright components to help develop end-to-end tests.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-api" target="_blank">gen-epix-api</a>**: the backend package developed for Gen-EpiX.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui" target="_blank">gen-epix-ui</a>**: the frontend ui library developed for Gen-EpiX.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui-tools" target="_blank">gen-epix-ui-tools</a>**: a library of general purpose frontend tools made for Gen-Epix.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-ui-demo-client" target="_blank">gen-epix-demo-client</a>**: a frontend demo-client developed for Gen-EpiX.
+- **<a href="https://github.com/RIVM-bioinformatics/gen-epix-e2e" target="_blank">gen-epix-e2e</a>**: a library of Playwright components to help develop end-to-end tests.
 
 ---
 
