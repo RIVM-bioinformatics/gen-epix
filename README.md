@@ -1,12 +1,8 @@
 <p align="center">
-<<<<<<< HEAD
     <img src="https://raw.githubusercontent.com/RIVM-bioinformatics/gen-epix-api/625bae2c34a2e2534d76f1776898874b3ec49336/docs/assets/Gen-epix-logo.svg" alt="gen-epix-api-logo">
 </p>
 <p align="center">
     <em>Genomic Epidemiology platform for disease X</em>
-=======
-    <img src="docs/gen-epix-logo-with-text.svg" alt="gen-epix-logo">
->>>>>>> d0fe6d0ce2ea940de8c70fb522beee3a492e0ea8
 </p>
 
 ---
