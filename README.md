@@ -35,9 +35,9 @@ This project is divided among the following repositories:
 - **Signal detection**: Detect, define and share sets of cases, signals and outbreaks.
 - **Disease X**: Any disease and corresponding analysis variables can be added.
 - **Data**: Adheres to the Medallion data architecture design pattern. The silver layer consists of normalized and standardized patient or subject data compliant with <a href="https://www.ohdsi.org/data-standardization" target="_blank">OMOP Common Data Model</a>, and a dedicated database for genetic sequence data and computation of phylogenetic trees. The gold layer consists of case data ready for analysis in the form of a single row of data per case.
-- **Tech**: OpenAPI compliant API, deployable on cloud or on-premise, support for multiple authentication providers. Python/FastAPI backend and default TypeScript/React frontend available from gen-epix-web.
+- **Tech**: OpenAPI compliant API, deployable on cloud or on-premise, support for multiple authentication providers. Python/FastAPI backend and default TypeScript/React frontend.
 
 ## Deliberately not in scope
 
-- **Disease-specific knowledge**: Every organization has their own variables that are important for analysis, as well as their own bioinformatics to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored.
+- **Disease-specific knowledge**: Every organization has their own variables that are important for analysis, as well as their own bioinformatics pipelines to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored.
 - **Collaboration-specific knowledge**: Every collaboration or country (e.g. for public health surveillance of diseases) has their own specifics in terms of access rights and any relevant geographic regions. We therefore avoided any country-specific code, both for the type of organizations that have access, and for any geographic data.
