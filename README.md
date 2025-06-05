@@ -1,9 +1,6 @@
 <p align="center">
     <img src="docs/gen-epix-logo-with-text.svg" alt="gen-epix-logo">
 </p>
-<p align="center">
-    <em>Genomic Epidemiology platform for disease X</em>
-</p>
 
 ---
 
