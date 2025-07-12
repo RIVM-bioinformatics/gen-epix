@@ -26,15 +26,16 @@ This project is divided among the following repositories:
 
 ## Key Features
 
-- **Visualisation**: Visualize cases by time, place, person and also by genome through a phylogenetic tree coupled to the cases.
-- **Fine-grained access**: Give different organizations different access rights per disease, down to individual variables. Organizations can manage access of their own users by themselves.
-- **Search**: Search and filter cases, including on genetic similarity.
-- **Signal detection**: Detect, define and share sets of cases, signals and outbreaks.
-- **Disease X**: Any disease and corresponding analysis variables can be added.
-- **Data**: Adheres to the Medallion data architecture design pattern. The silver layer consists of normalized and standardized patient or subject data compliant with <a href="https://www.ohdsi.org/data-standardization" target="_blank">OMOP Common Data Model</a>, and a dedicated database for genetic sequence data and computation of phylogenetic trees. The gold layer consists of case data ready for analysis in the form of a single row of data per case.
-- **Tech**: OpenAPI compliant API, deployable on cloud or on-premise, support for multiple authentication providers. Python/FastAPI backend and default TypeScript/React frontend.
+- **Visualisation.** Visualize cases by time, place, person and also by genome through a phylogenetic tree coupled to the cases.
+- **Fine-grained access.** Give different organizations different access rights per disease, down to individual cases and variables. Organizations can manage access of their own users by themselves.
+- **Search.** Search and filter cases, including on genetic similarity.
+- **Signal detection.** Detect, define and share sets of cases, signals and outbreaks.
+- **Disease X.** Any disease and corresponding analysis variables can be added without requiring additional code.
+- **Data.** Follows the <a href="https://dataengineering.wiki/Concepts/Data+Architecture/Medallion+Architecture" target="_blank">Medallion data architecture</a> design pattern. The silver layer consists of normalized and standardized patient or subject data compliant with the <a href="https://www.ohdsi.org/data-standardization" target="_blank">OMOP Common Data Model</a>, and a dedicated database for genetic sequence data and computation of phylogenetic trees. The gold layer consists of case data ready for analysis in the form of a single row of data per case, typically called a line list by epidemiologists. Demo data are included to be able to quickly get started and see the possibilities.
+- **Tech.** OpenAPI compliant API, deployable on cloud or on-premise, support for multiple authentication providers. Python/FastAPI backend and default TypeScript/React frontend.
 
 ## Deliberately not in scope
 
-- **Disease-specific knowledge**: Every organization has their own variables that are important for analysis, as well as their own bioinformatics pipelines to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored.
-- **Collaboration-specific knowledge**: Every collaboration or country (e.g. for public health surveillance of diseases) has their own specifics in terms of access rights and any relevant geographic regions. We therefore avoided any country-specific code, both for the type of organizations that have access, and for any geographic data.
+- **Disease-specific knowledge.** Every organization has their own variables that are important for analysis, as well as their own bioinformatics pipelines to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored.
+- **Collaboration-specific knowledge.** Every collaboration or country (e.g. for public health surveillance of diseases) has their own specifics in terms of access rights and any relevant geographic regions. We therefore avoided any country-specific code, both for the type of organizations that have access, and for any geographic data.
+- **Source data.** Every organization has their own applications in which their source data are stored. This bronze layer, in Medallion data architecture terms, is fully out of scope. However, the gen-epix-api package, and in particular the domain classes of the silver layer parts (OMOP and sequence databases), can be imported in any Python-based workflows to facilitate development.
