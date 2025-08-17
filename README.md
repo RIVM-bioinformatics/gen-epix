@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/RIVM-bioinformatics/gen-epix-api/625bae2c34a2e2534d76f1776898874b3ec49336/docs/assets/Gen-epix-logo.svg" alt="gen-epix-api-logo">
+    <img src="./docs/assets/gen-epix_logo_full.svg" alt="gen-epix-logo">
 </p>
 
 ---
