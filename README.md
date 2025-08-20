@@ -39,3 +39,11 @@ This project is divided among the following repositories:
 - **Disease-specific knowledge.** Every organization has their own variables that are important for analysis, as well as their own bioinformatics pipelines to process genetic sequence data. We therefore avoided any disease-specific code both for the generation of these data and for the analysis variables that can be defined. Only the results are stored.
 - **Collaboration-specific knowledge.** Every collaboration or country (e.g. for public health surveillance of diseases) has their own specifics in terms of access rights and any relevant geographic regions. We therefore avoided any country-specific code, both for the type of organizations that have access, and for any geographic data.
 - **Source data.** Every organization has their own applications in which their source data are stored. This bronze layer, in Medallion data architecture terms, is fully out of scope. However, the gen-epix-api package, and in particular the domain classes of the silver layer parts (OMOP and sequence databases), can be imported in any Python-based workflows from bronze to silver layer to facilitate development.
+
+## Funding
+
+This work was funded by the European Union under the EU4Health Programme (EU4H), project IDs 101102070 (UNITED4Surveillance) and 101113520 (NLWGSHERA2).
+
+<img src="./docs/assets/cofunded_EU_logo.png" alt="cofunded-EU-logo" width = 400>
+
+*Disclaimer: Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or Health and Digital Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.*
