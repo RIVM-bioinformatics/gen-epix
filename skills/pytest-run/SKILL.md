@@ -8,7 +8,7 @@ description: >-
   to re-run pytest just to re-read output already seen; asked to check test status,
   failures, tracebacks, or warnings after a run. Do NOT use to decide whether a
   fresh run is needed — rerun pytest for real whenever source or test code changed
-  since the last capture
+  since the last capture.
 argument-hint: 'Optional: pytest target/args, e.g. "test/etl/test_batch_uploader.py -k upload"'
 ---
 
