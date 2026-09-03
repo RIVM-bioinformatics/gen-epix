@@ -1,0 +1,13 @@
+{
+    "name": "gen-epix-agent-skills",
+    "owner": {
+        "name": "RIVM-bioinformatics"
+    },
+    "plugins": [
+        {
+            "name": "gen-epix-api",
+            "source": "./plugins/gen-epix-api",
+            "description": "gen-epix-api related ai plugin"
+        }
+    ]
+}
