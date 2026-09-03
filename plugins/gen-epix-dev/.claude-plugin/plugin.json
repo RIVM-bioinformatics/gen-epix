@@ -1,0 +1,6 @@
+{
+    "name": "gen-epix-dev",
+    "description": "A plugin that provides development AI assistance for gen-epix.",
+    "version": "1.0.0",
+    "skills": ["./skills/"]
+}
