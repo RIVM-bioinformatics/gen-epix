@@ -78,20 +78,20 @@ gh pr create \
 ```
 
 Escape quotes and newlines so the command can be pasted directly into a shell.
-Use `--print-command` on `.agents/scripts/pr.sh` for this mode.
+Use `--print-command` on `scripts/pr.sh` for this mode.
 
 ## Helper Script
 
-Use `.agents/scripts/pr.sh` for the standard workflow. Read or patch
+Use `scripts/pr.sh` for the standard workflow. Read or patch
 it first if the requested behavior differs from its options.
 
 ```bash
-.agents/scripts/pr.sh --base dev
-.agents/scripts/pr.sh --base dev --draft
-.agents/scripts/pr.sh --base dev --dry-run
-.agents/scripts/pr.sh --base dev --print-command
-.agents/scripts/pr.sh --base dev --body-only
-.agents/scripts/pr.sh --base test --title "fix(etl): handle empty batches"
+scripts/pr.sh --base dev
+scripts/pr.sh --base dev --draft
+scripts/pr.sh --base dev --dry-run
+scripts/pr.sh --base dev --print-command
+scripts/pr.sh --base dev --body-only
+scripts/pr.sh --base test --title "fix(etl): handle empty batches"
 ```
 
 The script prints the generated PR body path during dry runs and removes its
