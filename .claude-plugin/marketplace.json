@@ -6,7 +6,7 @@
     "plugins": [
         {
             "name": "gen-epix-dev",
-            "source": "../plugins/gen-epix-dev",
+            "source": "./plugins/gen-epix-dev",
             "description": "A plugin that provides development AI assistance for gen-epix."
         }
     ]
