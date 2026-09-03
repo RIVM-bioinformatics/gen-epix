@@ -3,7 +3,5 @@
     "name": "gen-epix-api",
     "description": "A plugin that provides access to the gen-epix-api related AI capabilities.",
     "version": "1.0.0",
-    "skills": [
-        "./../../.github/skills/"
-    ]
+    "skills": ["./skills/"]
 }
