@@ -1,1 +1,13 @@
-../.github/plugin/marketplace.json
+{
+    "name": "gen-epix-agent-skills",
+    "owner": {
+        "name": "RIVM-bioinformatics"
+    },
+    "plugins": [
+        {
+            "name": "gen-epix-dev",
+            "source": "../plugins/gen-epix-dev",
+            "description": "A plugin that provides development AI assistance for gen-epix."
+        }
+    ]
+}
